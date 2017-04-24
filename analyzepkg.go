@@ -86,6 +86,8 @@ func main() {
 
 		if cmtMLe.MatchString(strings.Trim(tmpStr, " ")) {
 			cmtMpre = true
+		}else{
+			cmtMpre = false
 		}
 
 		if !cmtS&&!cmtM {
